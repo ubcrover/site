@@ -252,3 +252,38 @@ footer {
     /* Adds a slight shadow to make the text pop over busy images */
     text-shadow: 0 2px 5px rgba(0,0,0,0.5); 
 }
+
+/* --- TEAM LEADERSHIP SECTION --- */
+.leadership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 60px;
+    justify-items: center;
+}
+
+
+.leader {
+    text-align: center;
+    max-width: 180px;
+}
+
+.leader img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--ubc-gold);
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.leader h3 {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+.leader p {
+    color: rgba(255,255,255,0.8);
+    font-size: 0.9rem;
+}
